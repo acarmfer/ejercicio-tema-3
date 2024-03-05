@@ -22,7 +22,7 @@
         "kind": 2,
         "importPath": "ejerciciofactorial",
         "description": "ejerciciofactorial",
-        "peekOfCode": "def main():\n    n = 5\n    print(factorial(n))\n    print(recursive_factorial(n))\nif __name__ == \"__main__\":\n    main()\n    class Factorial:\n        def __init__(self, n):\n            self.n = n\n        def iterative_factorial(self):",
+        "peekOfCode": "def main():\n    n = 5\n    print(factorial(n))\n    print(recursive_factorial(n))\nif __name__ == \"__main__\":\n    main()",
         "detail": "ejerciciofactorial",
         "documentation": {}
     },
@@ -33,6 +33,33 @@
         "description": "ejerciciofactorial",
         "peekOfCode": "n = 5\nprint(factorial(n))\n#generame una funcion recursiva del facotrial de 5 \ndef recursive_factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * recursive_factorial(n-1)\nprint(recursive_factorial(5))\n# Llamar a ambas funciones",
         "detail": "ejerciciofactorial",
+        "documentation": {}
+    },
+    {
+        "label": "fibonacci_iterative",
+        "kind": 2,
+        "importPath": "fibonaci",
+        "description": "fibonaci",
+        "peekOfCode": "def fibonacci_iterative(n):\n    fib_sequence = [0, 1]\n    for i in range(2, n+1):\n        fib_sequence.append(fib_sequence[i-1] + fib_sequence[i-2])\n    return fib_sequence\n# Secuencia de Fibonacci de forma recursiva\ndef fibonacci_recursive(n):\n    if n <= 1:\n        return n\n    else:",
+        "detail": "fibonaci",
+        "documentation": {}
+    },
+    {
+        "label": "fibonacci_recursive",
+        "kind": 2,
+        "importPath": "fibonaci",
+        "description": "fibonaci",
+        "peekOfCode": "def fibonacci_recursive(n):\n    if n <= 1:\n        return n\n    else:\n        return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)\n# Llamar a ambas funciones\ndef main():\n    n = 10\n    print(fibonacci_iterative(n))\n    print(fibonacci_recursive(n))",
+        "detail": "fibonaci",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "fibonaci",
+        "description": "fibonaci",
+        "peekOfCode": "def main():\n    n = 10\n    print(fibonacci_iterative(n))\n    print(fibonacci_recursive(n))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "fibonaci",
         "documentation": {}
     }
 ]
