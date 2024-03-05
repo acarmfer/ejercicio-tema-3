@@ -4,7 +4,25 @@
         "kind": 2,
         "importPath": "ejerciciofactorial",
         "description": "ejerciciofactorial",
-        "peekOfCode": "def factorial(n):\n    result = 1\n    for i in range(1, n+1):\n        result *= i\n    return result\nn = 5\nprint(factorial(n))",
+        "peekOfCode": "def factorial(n):\n    result = 1\n    for i in range(1, n+1):\n        result *= i\n    return result\nn = 5\nprint(factorial(n))\n#generame una funcion recursiva del facotrial de 5 \ndef recursive_factorial(n):\n    if n == 0:",
+        "detail": "ejerciciofactorial",
+        "documentation": {}
+    },
+    {
+        "label": "recursive_factorial",
+        "kind": 2,
+        "importPath": "ejerciciofactorial",
+        "description": "ejerciciofactorial",
+        "peekOfCode": "def recursive_factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * recursive_factorial(n-1)\nprint(recursive_factorial(5))\n# Llamar a ambas funciones\ndef main():\n    n = 5\n    print(factorial(n))",
+        "detail": "ejerciciofactorial",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ejerciciofactorial",
+        "description": "ejerciciofactorial",
+        "peekOfCode": "def main():\n    n = 5\n    print(factorial(n))\n    print(recursive_factorial(n))\nif __name__ == \"__main__\":\n    main()\n    class Factorial:\n        def __init__(self, n):\n            self.n = n\n        def iterative_factorial(self):",
         "detail": "ejerciciofactorial",
         "documentation": {}
     },
@@ -13,7 +31,7 @@
         "kind": 5,
         "importPath": "ejerciciofactorial",
         "description": "ejerciciofactorial",
-        "peekOfCode": "n = 5\nprint(factorial(n))",
+        "peekOfCode": "n = 5\nprint(factorial(n))\n#generame una funcion recursiva del facotrial de 5 \ndef recursive_factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * recursive_factorial(n-1)\nprint(recursive_factorial(5))\n# Llamar a ambas funciones",
         "detail": "ejerciciofactorial",
         "documentation": {}
     }
